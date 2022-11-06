@@ -3,8 +3,6 @@ public class Main {
         String word = "Комокс";
         if (word.equalsIgnoreCase(new StringBuffer(word).reverse().toString())) {
             System.out.println("Полиндром");
-        } else {
-            System.out.println("Не полиндром");
-        }
+        } else { System.out.println("Не полиндром"); }
     }
 }
